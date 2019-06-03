@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="031a4a01-c87d-485f-babb-b098fc6324b6" name="Default Changelist" comment="" />
+    <list default="true" id="031a4a01-c87d-485f-babb-b098fc6324b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.boeing.tdd.api.controller.PostControllerIntegrationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.boeing.tdd.api.controller.PostControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.boeing.tdd.api.controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.boeing.tdd.api.controller.PostControllerIntegrationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.boeing.tdd.api.controller.PostControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,7 +45,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="api" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -41,50 +62,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+            <state relative-caret-position="459">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/boeing/tdd/api/controller/PostControllerIntegrationTest.java">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/service/EloRatingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/controller/PostController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/service/EloRatingServiceTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#36#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Post.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/util/EloRankingUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.8/1aa07070912b2caee846638641606f3b2f1f440a/lombok-1.18.8-sources.jar!/lombok/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -92,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/controller/PostControllerTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+            <state relative-caret-position="612">
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="e#39#76#0" expanded="true" />
               </folding>
@@ -104,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/repository/PostRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+            <state relative-caret-position="68">
+              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,6 +173,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -143,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/controller/PostContoller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/handler/GreetingHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/router/GreetingRouter.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Posts.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Post.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Pos4t.java" />
@@ -152,6 +193,16 @@
         <option value="$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/controller/PostControllerTest.groovy" />
         <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/boeing/tdd/api/controller/PostControllerIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/service/EloRatingTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/service/EloRating.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/util/EloRankingUtilTest.groovy" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/util/EloRankingUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/service/EloRatingServiceTest.groovy" />
+        <option value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/service/EloRatingService.java" />
       </list>
     </option>
   </component>
@@ -160,19 +211,32 @@
     <option name="width" value="1294" />
     <option name="height" value="1407" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
               <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
@@ -237,7 +301,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
@@ -258,20 +340,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Spock" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/boeing/tdd/api" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.boeing.tdd.api.util" />
+      <recent name="com.boeing.tdd.api.service" />
       <recent name="com.boeing.tdd.api.controller" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -293,13 +381,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Tests in 'api.test'">
-    <configuration name="PostControllerIntegrationTest.postSavesPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.EloRatingServiceTest.apply the rankings of second player after a match">
+    <configuration name="EloRankingUtilTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.controller.PostControllerIntegrationTest.postSavesPost&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.util.EloRankingUtilTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -314,12 +402,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostControllerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EloRankingUtilTest.get the adjusted score of player after a match" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.controller.PostControllerTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.util.EloRankingUtilTest.get the adjusted score of player after a match&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -334,12 +422,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostControllerTest.saves the post" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EloRatingServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.controller.PostControllerTest.saves the post&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.service.EloRatingServiceTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -354,12 +442,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostControllerTest.uses the PostRepository to get Posts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EloRatingServiceTest.apply the rankings of first player after a match" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.controller.PostControllerTest.uses the PostRepository to get Posts&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.service.EloRatingServiceTest.apply the rankings of first player after a match&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -374,12 +462,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Tests in 'api.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EloRatingServiceTest.apply the rankings of second player after a match" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests *" />
+        <option name="scriptParameters" value="--tests &quot;com.boeing.tdd.api.service.EloRatingServiceTest.apply the rankings of second player after a match&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -403,11 +491,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Tests in 'api.test'" />
-        <item itemvalue="Gradle.PostControllerIntegrationTest.postSavesPost" />
-        <item itemvalue="Gradle.PostControllerTest.saves the post" />
-        <item itemvalue="Gradle.PostControllerTest" />
-        <item itemvalue="Gradle.PostControllerTest.uses the PostRepository to get Posts" />
+        <item itemvalue="Gradle.EloRatingServiceTest.apply the rankings of second player after a match" />
+        <item itemvalue="Gradle.EloRatingServiceTest.apply the rankings of first player after a match" />
+        <item itemvalue="Gradle.EloRatingServiceTest" />
+        <item itemvalue="Gradle.EloRankingUtilTest" />
+        <item itemvalue="Gradle.EloRankingUtilTest.get the adjusted score of player after a match" />
       </list>
     </recent_temporary>
   </component>
@@ -424,49 +512,51 @@
       <workItem from="1557808833344" duration="5775000" />
       <workItem from="1557909145998" duration="902000" />
       <workItem from="1557977422689" duration="3675000" />
+      <workItem from="1558153674539" duration="488000" />
+      <workItem from="1559457921516" duration="5624000" />
+      <workItem from="1559536076434" duration="2387000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostControllerTest_uses_the_PostRepository_to_get_Posts - 2019.05.15 at 20h 53m 05s.xml">
-      <configuration name="PostControllerTest.uses the PostRepository to get Posts" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest - 2019.06.02 at 21h 21m 23s.xml">
+      <configuration name="EloRatingServiceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerTest - 2019.05.15 at 20h 53m 12s.xml">
-      <configuration name="PostControllerTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest - 2019.06.02 at 21h 22m 24s.xml">
+      <configuration name="EloRatingServiceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerTest - 2019.05.15 at 20h 54m 10s.xml">
-      <configuration name="PostControllerTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest_apply_the_rankings_of_first_player_after_a_match - 2019.06.02 at 22h 09m 03s.xml">
+      <configuration name="EloRatingServiceTest.apply the rankings of first player after a match" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerTest - 2019.05.15 at 20h 54m 37s.xml">
-      <configuration name="PostControllerTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest - 2019.06.02 at 22h 09m 13s.xml">
+      <configuration name="EloRatingServiceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerTest_saves_the_post - 2019.05.15 at 21h 17m 19s.xml">
-      <configuration name="PostControllerTest.saves the post" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest - 2019.06.02 at 22h 13m 06s.xml">
+      <configuration name="EloRatingServiceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerTest_saves_the_post - 2019.05.15 at 21h 17m 43s.xml">
-      <configuration name="PostControllerTest.saves the post" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest - 2019.06.02 at 22h 17m 51s.xml">
+      <configuration name="EloRatingServiceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerTest_saves_the_post - 2019.05.15 at 21h 18m 02s.xml">
-      <configuration name="PostControllerTest.saves the post" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest - 2019.06.02 at 22h 18m 33s.xml">
+      <configuration name="EloRatingServiceTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerIntegrationTest_postSavesPost - 2019.05.15 at 21h 19m 43s.xml">
-      <configuration name="PostControllerIntegrationTest.postSavesPost" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest_apply_the_rankings_of_first_player_after_a_match - 2019.06.02 at 22h 19m 50s.xml">
+      <configuration name="EloRatingServiceTest.apply the rankings of first player after a match" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="PostControllerIntegrationTest_postSavesPost - 2019.05.15 at 21h 20m 52s.xml">
-      <configuration name="PostControllerIntegrationTest.postSavesPost" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest_apply_the_rankings_of_second_player_after_a_match - 2019.06.02 at 22h 21m 52s.xml">
+      <configuration name="EloRatingServiceTest.apply the rankings of second player after a match" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="Tests_in_'api_test' - 2019.05.16 at 22h 20m 19s.xml">
-      <configuration name="Tests in 'api.test'" configurationId="GradleRunConfiguration" />
+    <history-entry file="EloRatingServiceTest_apply_the_rankings_of_second_player_after_a_match - 2019.06.02 at 22h 23m 48s.xml">
+      <configuration name="EloRatingServiceTest.apply the rankings of second player after a match" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10352000" />
+    <option name="totallyTimeSpent" value="18851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25769854" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26985413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -476,20 +566,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32731554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.33124018" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Dynamic Members" weight="0.3298217" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -501,6 +590,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="right" id="Dynamic Members" order="11" weight="0.3298217" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,60 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Post.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/repository/PostRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/controller/PostControllerTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#39#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Post.groovy" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/router/GreetingRouter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -597,29 +634,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/boeing/tdd/api/controller/PostControllerIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="255">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/service.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/util/EloRankingUtilTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Post.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/repository/PostRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.8/1aa07070912b2caee846638641606f3b2f1f440a/lombok-1.18.8-sources.jar!/lombok/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/entity/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/util/EloRankingUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/boeing/tdd/api/service/EloRatingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/controller/PostControllerTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="e#39#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/boeing/tdd/api/service/EloRatingServiceTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#36#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
